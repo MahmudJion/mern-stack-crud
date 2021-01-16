@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# MERN STACK CRUD APPLICATION
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -26,6 +26,15 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
+
+### Start Backend Server
+
+- Get inside the `backend` folder
+- Run `npm install` to install required packages
+- Open terminal run `nodemon server.js`
+- Open other terminal run `mongod`
+
+Open API URL on [http://localhost:4000/employees](http://localhost:4000/employees) to view it in the browser.
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
